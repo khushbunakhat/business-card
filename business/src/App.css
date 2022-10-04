@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+ .createtbtn{
+  box-sizing: border-box;
+position: absolute;
+right: 7.4%;
+top: 2.35%;
+height:50px;
+background: #F2A365;
+border: 1px solid #F2A365;
+border-radius: 30px;
+width:160px;
+margin-top:-10px
+
+}
+.main{
+ display:flex;
+ flex-direction: row;
+ margin-top:30px; 
+ position: absolute;
+	/* transform:translate(-50%,50%);
+	border-radius: 80% 20% 32% 68% / 58% 22% 78% 42% ;
+  background: radial-gradient(57.08% 98.2% at 12.75% 60.96%, rgba(255, 217, 95, 0.8) 0%, rgba(238, 153, 13, 0.8) 100%); */
+  /* margin-left:300px; */
+  float:right;
+  margin-left:300px;
+  width:600px;
+}
+.navstyle{
+  color:#FE7624;
+  width:96px;
+   height:30px;
+  
+}
+.header{
+  height:30px;
+  align-items: flex-start;
+  font-size: 30px;
+}
+.pocket{
+  display:flex;
+  flex-direction: row;
+}
+.leftdiv{
+  /* display:flex;
+  flex-direction: row; */
+  margin-top:15px;
+  margin-left: 50px;
+  float:left;
+  width:50%;
+
+ 
+}
+.text{
+ color: #FE7624;
+ font-size:28px;
+ line-height: 42px;
+ width: 446px;
+height: 42px;
+margin-bottom:20px;
+margin-left: 227px;
+margin-top: 120px;
+}
+.freeplan{
+  color: #1F1F1F;
+  font-size:28px;
+  line-height: 42px;
+  margin-left: 227px;
+}
+.freeplan>span{
+  color:#F2A365;
+}
+.virtual{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 66px;
+color: #1F1F1F;
+margin-left: 227px;
+}
+p{
+  margin:0
+}
+.step{
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+width: 503px;
+height: 30px;
+margin-left: 227px;
+margin-top: 20px;
+}
+.bottomcard{
+  background: #F2A365;
+border: 1px solid #F2A365;
+border-radius: 30px;
+height:50px;
+width:200px;
+margin-left:227px;
+margin-top: 20px;
+}
+.seconddiv{
+  float:left;
+  margin-left:-100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rightdiv{
+  margin-left:700px;
+  background-image: url("./../public/curve.png");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.phone{
+  margin-left: 50px;
+  float:left;
+  margin-top: 150px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.mobileback{
+  width:1400px;
+  height: 1000px;
+  margin-top: 150px;
+  margin-left: 150px;
+  float:left;
+  margin-right: 200px;
+  background-image: url('./../public/mobileback.png');
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.butn{
+  background: #F6F6F6;
+border: 3px solid #F6F6F6;
+Width:200px;
+Height:55px;
+border-radius:30px;
+margin-top:50px;
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+text-transform: uppercase;
+
+color: #EE990D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+h2{
+  text-align:center;
 }
+.backimg{
+  width:120px;
+  height: 120px;
+
+}
+.container {
+  width: 200px;
+  height: 200px;
+  margin-top:-60px;
+  margin-left: 50px;
+}
+.tag {
+   position: relative;
+   z-index: 1;
+   float: left;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+   left: 60px;
+  top: 180px;
+}
+#img{
+  position:relative;
+  z-index:0;
+  top:-28px;
+  width:250px;
+  height: 300px;
+  margin-left:50px
+}
+.input1{
+  background: #F6F6F6;
+border: 1px solid #EDC5C5;
+border-radius: 30px;
+height:48px;
+width:270px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ font-size: bold;
+ color:black;
+ font-size: 20px;
+ padding-left:10px
+}
+.input2{
+border:none;
+background: #F6F6F6;
+border-radius: 30px;
+}
+.input2::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: bold;
+  color:pink;
+  font-size: 20px;
+  padding-left:10px;
+  width:270px;
+ }
+ .upgrade{
+  background: #F2A365;
+border: 1px solid #F2A365;
+color:white;
+border-radius:10px;
+margin-top:20px;
+padding:15px
+ }
+ .lastdiv{
+  width:300px;
+  margin-left:670px;
+  margin-top:300px;
+  height:80px;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #CCD0F9;
+border-radius: 30px 30px 30px 30px;
+
+ }
+ .lastdiv>div{
+  width:30%;
+  padding:5%;
+  text-align: center;
+  border-left: 3px solid #CCD0F9;
+ }
+ .dot{
+  text-align: center;
+  padding:20px;
+  margin-top:150px
+ }

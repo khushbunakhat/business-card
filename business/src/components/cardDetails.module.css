@@ -1,0 +1,60 @@
+.addlogo{
+    width:60px;
+    height:60px;
+    margin-left: 350px;
+    margin-bottom: -40px;
+}
+.uploadimg{
+    width:300px;
+    height:300px;
+}
+.backimg{
+    width:60px;
+    height:60px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+.upload{
+    width:200px;
+    margin-bottom:200px
+}
+.inputBox {
+    margin-top: 400px;
+    margin-left:-300px;
+    float:left;
+    margin-right:200px
+  }
+  label{
+    margin-left:20px
+  }
+  input{
+    border:none;
+    border-bottom: 2px solid #FE7624;
+    display:block;
+    font-size: 30px;
+    margin:20px;
+  }
+  .detail{
+    margin-top:250px;
+  }
+  .button{
+    margin-top: 300px;
+    margin-left: 300px;
+
+  }
+  .btn1{
+    border:none;
+    font-size: 24px;
+    background: transparent;
+    padding:20px;
+    margin-right:20px
+  }
+  .btn2{
+border-radius:20px;
+background: #F2A365;
+border: 1px solid #F2A365;
+color:white;
+font-size:24px;
+width:150px;
+height:48px
+  }
