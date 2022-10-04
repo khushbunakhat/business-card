@@ -16,12 +16,8 @@ margin-top:-10px
  flex-direction: row;
  margin-top:30px; 
  position: absolute;
-	/* transform:translate(-50%,50%);
-	border-radius: 80% 20% 32% 68% / 58% 22% 78% 42% ;
-  background: radial-gradient(57.08% 98.2% at 12.75% 60.96%, rgba(255, 217, 95, 0.8) 0%, rgba(238, 153, 13, 0.8) 100%); */
-  /* margin-left:300px; */
   float:right;
-  margin-left:300px;
+  margin-left:200px;
   width:600px;
 }
 .navstyle{
@@ -40,12 +36,10 @@ margin-top:-10px
   flex-direction: row;
 }
 .leftdiv{
-  /* display:flex;
-  flex-direction: row; */
   margin-top:15px;
   margin-left: 50px;
   float:left;
-  width:50%;
+  width:40%;
 
  
 }
